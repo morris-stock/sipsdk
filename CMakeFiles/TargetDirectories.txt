@@ -1,3 +1,0 @@
-/home/robbie/workspace/media/npsipsdk/CMakeFiles/edit_cache.dir
-/home/robbie/workspace/media/npsipsdk/CMakeFiles/rebuild_cache.dir
-/home/robbie/workspace/media/npsipsdk/CMakeFiles/npsipsdk.dir
