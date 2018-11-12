@@ -20,6 +20,10 @@ aux_source_directory(${MESSAGE_SRC_DIR} MESSAGE_SRCS)
 #aux_source_directory(. SRCS)
 set(SOURCES ${XML_SRCS} ${SDK_SRCS} ${MESSAGE_SRCS})
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --std=c++11")
+include_directories(SYSTEM
+  /home/backup/develop/x86_64/debug/include)
+link_directories(/home/backup/develop/x86_64/debug/lib)
 add_definitions(-DOUT)
 link_libraries(libresip.so  libresipares.so librutil.so libdum.so)
 add_library(npsipsdk STATIC ${SOURCES})
